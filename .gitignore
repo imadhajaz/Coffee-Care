@@ -1,0 +1,44 @@
+# Ignore files in the __MACOSX directory
+__MACOSX/*
+
+# Ignore files in the CropCare directory
+CropCare/*
+
+# macOS system files
+.DS_Store
+._*
+
+# Ignore build and gradle files
+**/.gradle/
+**/build/
+**/_build/
+**/_gradle/
+
+# Node modules
+node_modules/
+
+# Android specific
+**/.android/
+**/*.apk
+**/*.aab
+**/*.iml
+
+# iOS specific
+**/ios/Pods/
+**/ios/build/
+**/*.xcodeproj/
+**/*.xcworkspace/
+**/*.xcuserstate
+
+# IDE config files
+.idea/
+.vscode/
+
+# Log files
+*.log
+npm-debug.log*
+
+# Environment files
+*.env
+.env.local
+.env.*.local
